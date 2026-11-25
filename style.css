@@ -68,7 +68,7 @@ p {
 .section__title {
     font-size: 48px;
     font-weight: 900;
-    color: #1a202c;
+    color: #243e63;
     line-height: 1.5;
     margin: 16px 0;
     letter-spacing: 0.025em;
@@ -109,7 +109,7 @@ button {
 
 /* 
 
-NAVBAR ↓
+NAVIGATION
 
 */
 
@@ -168,7 +168,7 @@ nav {
     font-weight: 600;
     padding-top: 4px;
     letter-spacing: 0.35px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid #00000000;
     position: relative;
     transition: all 300ms;
 }
@@ -230,9 +230,9 @@ nav {
 }
 
 .btn__menu {
-    display: none;
-    background: transparent;
+    background-color: #00000000;
     border: none;
+    display: none;
     transition: all 300ms ease;
 }
 
@@ -291,7 +291,7 @@ nav {
     line-height: 1.5;
     margin: 8px 0;
     padding-bottom: 4px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid #00000000;
 }
 
 .menu__link--primary {
@@ -382,7 +382,7 @@ header .row {
 }
 
 .header__email--input:hover {
-    border-color: #6415ff;
+    border-color: #a0aec0;
 }
 
 .header__email--input:focus,
@@ -609,6 +609,7 @@ STEPS ↓
     align-items: flex-start;
     margin-top: 32px;
 }
+
 .step__number {
     color: #cbd5e0;
     font-size: 36px;
@@ -639,16 +640,16 @@ STEPS ↓
 }
 
 .steps__grid {
-    position: absolute;
-    bottom: -100px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 10rem;
-    height: 10rem;
-    opacity: 0.8;
-    z-index: -10;
-    color: #6415ff; /* currentColor will inherit this */
-    fill: currentColor;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10rem;
+  height: 10rem;
+  opacity: 0.8;
+  z-index: -10;
+  color: rgb(100, 21, 255); /* currentColor will inherit this */
+  fill: currentColor;
 }
 
 /* 
@@ -1119,7 +1120,7 @@ main {
     align-items: center;
 }
 
-.start_row {
+.start__row {
     width: 100%;
     margin: 0 auto;
     max-width: 1024px;
@@ -1131,8 +1132,7 @@ main {
 
 .start__title,
 .start__buttons {
-    display: flex;
-    justify-content: center;
+    width: 50%;
 }
 
 .start__buttons {
@@ -1177,7 +1177,7 @@ main {
     transition: all 300ms ease;
 }
 
-.start__buttom:hover:nth-child(2) {
+.start__button:hover:nth-child(2) {
     background-color: #f7fafc;
     color: #6415ff;
 }
