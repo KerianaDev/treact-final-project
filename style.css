@@ -315,7 +315,7 @@ HEADER / ABOUT US ↓
 
 */
 
-.section {
+section {
     padding: 0 32px;
 }
 
@@ -775,8 +775,8 @@ PRICING ↓
     flex-direction: column;
     border-radius: 0.5rem;
     background-color: #ffffff;
-    padding-left: 2 rem;
-    padding-right: 2 rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin-right: 2rem;
     padding-top: 0.5rem;
     text-align: center;
